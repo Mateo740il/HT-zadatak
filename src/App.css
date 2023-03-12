@@ -1,0 +1,114 @@
+.header{
+  padding: 10px 50px;
+  background-color: #ed008c;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+  margin-top: 60px;
+  text-align: center;
+}
+
+.main{
+  width: 80%;
+  margin: 50px auto;
+}
+
+.addUser{
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+
+.main__users{
+  width: 100%;
+}
+
+.main__users__user{
+  padding: 30px;
+  background-color: #f0f0f0;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.addBook{
+  width: 100%;
+  margin: 20px auto;
+}
+
+.footer{
+  background-color: #ed008c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+input[type='text'] {
+  flex-grow: 1;
+  max-width: calc(100% - 50px);
+  min-height: 28px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  outline: none;
+}
+
+.addBtn{
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #0063ed;
+  color: white;
+  border: none;
+}
+
+.addBtn:hover,
+.addBtn:focus{
+  background-color: #124894;
+}
+
+.delBtn{
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #d6485b;
+  color: white;
+  border: none;
+}
+
+.delBtn:hover,
+.delBtn:focus{
+  background-color: #a33443;
+}
+
+.delBook{
+  width: 28px;
+  min-width: 28px;
+  height: 26px;
+  font-size: 1rem;
+  color: #d6485b;
+  cursor: pointer;
+}
+
+.delBook:hover{
+  color: #a33443;
+}
